@@ -65,28 +65,33 @@
     display: flex;
     flex-direction: row-reverse;
     padding: 10px;
+    height: 50vh;
 }
 .about-title{
     text-align: center;
     padding-top: 20px;
 }
 .Service-container{
-    display: flex;
+    /* display: flex; */
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
-   
+    padding: 50px;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    height: 50vh;
+    color: white;
+
 }
 .box{
     width: 230px;
     height: 280px;
-    background-color: black;
+    /* background-color: black; */
     padding: 15px;
     color: white;
     /* margin-top: 10px; */
     align-items: center;
     text-align: center;
     box-shadow: 5px 5px 15px gray;
+    border-radius: 10px;
 
 }
 .icon{
@@ -110,4 +115,9 @@
 }
 .box-btn:hover{
     background-color: brown;
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
 }
